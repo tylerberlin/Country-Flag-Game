@@ -7,15 +7,15 @@
 
 import Foundation
 
-struct Awnser: Identifiable {
+struct Answer: Identifiable {
     var id = UUID()
     var text: String
-    var incorrect: Bool
+    var isCorrect: Bool
 }
 
 struct Question: Identifiable {
     var id = UUID()
-    var correctAwnser: Awnser
-    var incorrect: [Awnser]
+    var correctAnswer: Answer
+    var incorrect: [Answer]
 }
 
