@@ -11,7 +11,7 @@ struct QuestionView: View {
     @EnvironmentObject var gameManager: GameManager
     var body: some View {
         VStack(spacing: 20){
-            if gameManager. playingGame {
+            if gameManager.playingGame {
                 HStack{
                     Text("Country Flag Game")
                         .fontWeight(.heavy)
