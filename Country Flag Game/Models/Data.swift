@@ -29,7 +29,17 @@ struct Data {
         "Spain",
         "Sweden",
         "Ukraine",
-        "United States"
+        "United States",
+        "Bhutan",
+        "Malawi",
+        "Suriname",
+        "Vanuatu",
+        "Tajikistan",
+        "Lesotho",
+        "Comoros",
+        "Kiribati",
+        "Seychelles",
+        "Moldova"
     ]
     
 }
