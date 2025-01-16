@@ -26,7 +26,7 @@ struct QuestionView: View {
                         .font(.title)
                     Image(gameManager.country)
                         .resizable()
-                        .frame(width: 300, height: 300)
+                        .frame(width: 300, height: 200)
                     ForEach(gameManager.answerChoices) { answer in
                         AnswerRow(answer: answer)
                             .environmentObject(gameManager)
